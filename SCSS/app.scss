@@ -1,0 +1,54 @@
+@import "./variables";
+@import "./Partials/colors";
+@import "./Partials/NavBar";
+@import "./Partials/partnership";
+@import "./Partials/aside";
+@import "./Partials/rating";
+@import "./Partials/_footer";
+
+html, body {
+    height: 100%;
+}
+body {
+    background: $colore-sfondo;
+    background-attachment: fixed;
+    @media screen and (max-width: 575px) {
+        padding: 15px 15px 0 15px;
+    }
+}
+.container {
+    background-color: white;
+    box-shadow: $shadow;
+    @media screen and (min-width: 576px) {
+        margin-top: 4em;    
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+.text_container{
+flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+    p {
+        background: $colore-sfondo2;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: $shadow;
+    }
+}
+.title_container {
+text-align: left;
+    h3 {
+        margin: 0;
+        font-size: 1em;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.slider_container{
+    background-color: $colore-bg;
+}

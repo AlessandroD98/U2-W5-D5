@@ -1,0 +1,27 @@
+.navbar_container{
+background-image: url(https://wallpapercave.com/wp/wp6669316.png);
+height: 500px;
+background-size: cover;
+a, .icon_container, span, h1, p{
+color: white;
+&:hover{
+    color: white;
+}
+}
+}
+#navbarSupportedContent{
+    justify-content: space-between;
+    ul {
+        margin-right: 0 !important;
+    }
+    .icon_container {
+
+        @media screen and (max-width: 991px) {
+            justify-content: center;
+        }
+    }
+}
+.dropdown-menu {
+    background-color: #001a3f !important;
+    --bs-dropdown-link-hover-bg: black !important;
+}
